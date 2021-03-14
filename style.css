@@ -1,0 +1,398 @@
+body {
+    background: #CCCCCC;
+    margin: 0;
+    padding: 0;
+}
+
+.Header_wrap {
+    margin: 0 auto;
+    width: 1440px;
+    background: url(assets/Rectangle.png) no-repeat center;
+    height: 779px;
+}
+
+header {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.Header_Nav_ul button, a {
+    display: flex;
+    text-decoration: none;
+    color: #F7F7F7;
+    text-align: justify;
+}
+
+.LogoImg {
+    margin-top: 19px;
+    width: 70px;
+    height: 60px;
+}
+
+ H1 {
+    display: inline;
+    font-size: 32px;
+    padding: 3px 15px 0;
+    font: 32px "Roboto";
+    font-style: normal;
+    
+ }
+
+nav {
+    width: 500px;
+}
+
+.Header_Nav_ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 5px 0 0 7px;
+}
+
+li, .SingIn {
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-size: 23px;
+}
+.Header_Nav_ul a:hover {
+    color: #666666;
+}
+
+#Search:hover{
+    width: 25px;
+    height: 25px;
+}
+
+.SingIn {
+    border: 2px solid;
+    border-color: #CD6326;
+    border-radius: 5px;
+    width: 120px;
+    height: 50px;
+    background: transparent;
+    font-family: "Roboto";
+    padding-left: 7px;
+}
+
+.SingIn:hover {
+    background: #CD6326;
+}
+
+.SingIn:active {
+    background: #8F5613;
+}
+
+                               /* Block Survival */
+
+.Header_Survival {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 77px;
+}
+
+.Survival_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 275px;
+    font-family: sans-serif ;
+    font-weight: lighter;
+}
+
+.Survival_wrap h2 {
+    font-family: "Open Sans" sans-serif;
+    font-style: normal;
+    color: #CD6326;
+    font-size: 48px; 
+}
+
+.Survival_wrap p {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #F7F7F7;
+    padding-left: 1px;
+}
+
+.Donate {
+    margin-top: 30px;
+    width: 160px;
+    height: 60px;
+    background-color: #CD6326;
+    border-radius: 5px;
+    border: none;
+    font-size: 23px;
+    color: #F7F7F7;
+}
+
+
+.Donate:hover {
+    background:#E39128;
+    ;
+}
+
+.Donate:active {
+    background: #8F5613;
+}
+
+
+
+                                    /* Block Main*/
+
+main {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 239px;
+}
+
+
+main h2 {
+    font-family: "Roboto", sans-serif;
+    color: #333333;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+main p {
+    font-family: "Roboto", sans-serif;
+    color: #666666;
+    text-align: center;
+    font-size: 25px;
+    line-height: 36px;
+    margin: 0px;
+    padding: 20px;
+}
+
+                         /* Block Slider */
+.Slider {
+    width: 1200px;
+    margin-top: 101px;
+}
+.image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.slide{
+    max-width: 300px;
+}
+
+.arrowN {
+    width: 30px;
+    padding-top: 163px;
+}
+
+.arrowN:hover, .arrowL:hover {
+    background: #acaaaa;
+    transition-duration: 1s;
+}
+
+.arrowL {
+    width: 30px;
+    padding-top: 144px;
+}
+
+.Slider .h4 {
+    color: #F7F7F7;
+    font-size: 28px;
+    line-height: 36px;
+    position: absolute;
+    margin-top: -118px;
+    margin-left: 124px;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: -3px;
+}
+
+.Slider p {
+    color: #F7F7F7; 
+    padding: 0;
+    font-size: 17px;
+    line-height: 27px;
+    position: absolute;
+    margin-top: -72px;
+    margin-left: 61px;
+    font-family: "Open Sans", sans-serif;
+}
+.slide:hover, #middleItem:hover{
+    transition-duration: 1.5s;
+    opacity: 0.5;
+}
+
+.discription {
+    display: inline;
+    text-align: center;
+}
+#Squirrel{
+    margin-left: 110px;
+}
+#SquirrelText {
+    margin-left: 75px;
+}
+
+#Bird {
+    margin-left: 129px;
+}
+
+#BirdText {
+    margin-left: 91px;
+}
+
+
+/*                    block input email  */
+.InputEmail {
+    display: inline;
+    text-align: center;
+    margin-top: 215px;
+    font-family: "Roboto", sans-serif;
+}
+
+.InputEmail p {
+    font-size: 28px;
+    color: #333333;
+}
+
+.Block_inputEmail {
+    padding: 42px 0 0 5px;
+}
+
+
+#EmailStr {
+    width: 540px;
+    height: 56px;
+    background: none;
+    opacity: 0.5;
+    font-family: "Roboto", sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    text-indent: 12px;
+}
+
+#EmailButton {
+    height: 62px;
+    width: 120px;
+    border-radius: 0 5px 5px 0;
+    background: #CD6326;
+    color: #F7F7F7;
+    margin-left: -5px;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    padding: 0 13px 0 0;
+}
+
+                      /*     Footer    */
+footer {
+    width: 1440px;
+    height: 360px;
+    background: url(assets/FooterBackgr.jpg) no-repeat center;
+    margin: 0 auto;
+}
+
+.footer_wrap {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.Logo_foot, .Footer_info, .Logo_social {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.Logo_foot img {
+    width: 70px;
+    height: 60px;
+}
+
+.Logo_foot p {
+    font-family: "Roboto";
+    font-size: 32px;
+    font-style: normal;
+    line-height: 60px;
+    color: #F7F7F7;
+    margin: 0;
+    padding-left: 16px;
+}
+
+.Footer_info {
+    display: flex;
+    justify-content: space-between;
+    width: 476px;
+    padding-left: 12px;
+}
+.Footer_info ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+}
+
+#FirstCh {
+    padding: 0;
+}
+.Footer_info a:hover {
+    color: #666666;
+}
+
+.Logo_foot a:hover {
+    opacity: 0.5;
+}
+
+.Footer_info a {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-size: 23px;
+    line-height: 60px;
+    color: #F7F7F7;
+}
+
+.Logo_social {
+    display: flex;
+    justify-content: space-between;
+    width: 239px;
+    padding: 0;
+}
+
+.Logo_social li {
+    padding: 0;
+}
+
+
+.Facebook, .Instagram, .Pinteres, .Telegram {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #F7F7F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logo_social li:hover {
+    background: #666666;
+}
